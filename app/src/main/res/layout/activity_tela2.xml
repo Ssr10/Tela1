@@ -27,7 +27,7 @@
             android:layout_marginTop="116dp"
             android:layout_marginEnd="32dp"
             android:background="#D6DC9A"
-            android:text="RadioButton"
+            android:text="Subtrair"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -40,7 +40,7 @@
             android:layout_marginEnd="32dp"
             android:background="#D6DC9A"
             android:backgroundTint="#D6DC9A"
-            android:text="RadioButton"
+            android:text="Multiplicar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/subtrairId" />
@@ -52,7 +52,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
             android:background="#D6DC9A"
-            android:text="RadioButton"
+            android:text="Dividir"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/multiplicarId" />
@@ -61,11 +61,11 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/resultadoId"
+        android:id="@+id/escolhaId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Button"
+        android:text="OPÇÃO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
